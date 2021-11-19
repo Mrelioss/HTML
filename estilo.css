@@ -140,7 +140,7 @@
   justify-self: top;
   align-self: start;
 }
-/*MEDIA QUERI*/
+/*MEDIA QUERIES -- SECTION1*/
 
 @media screen and (max-width: 768px) {
   .container1 {
@@ -225,7 +225,7 @@
   justify-self: end;
 }
 
-/*MEDIA QUERI*/
+/*MEDIA QUERIES -- SECTION2*/
 @media screen and (max-width: 768px) {
   .container2 {
     grid-template-columns: 1fr;
@@ -358,7 +358,9 @@
   color: #a8f88f;
 }
 
-@media (max-width: 768px) {
+/*MEDIA QUERIES -- SECTION3*/
+
+@media screen and (max-width: 768px) {
   .img__ABC-123 {
     max-width: 60%;
     min-width: none;
