@@ -24,7 +24,7 @@
 	=            Section comment block            =
 =============================================*/
 .section0__bg {
-  background: url(image/Header_bg.webp);
+  background: url(Image/Header_bg.webp);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -123,7 +123,7 @@
 =============================================*/
 
 .section1__bg {
-  background: url(image/section_1_bg.webp);
+  background: url(Image/section_1_bg.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -210,8 +210,8 @@
       rgba(255, 255, 255, 0.5),
       rgba(255, 255, 255, 0.5)
     ),
-    url(image/section_2_bg.webp);
-  /* background: url(image/section_2_bg.webp); */
+    url(Image/section_2_bg.webp);
+  /* background: url(Image/section_2_bg.webp); */
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -431,7 +431,7 @@
 =============================================*/
 
 .section4__bg {
-  background: url(image/section_4_bg.webp);
+  background: url(Image/section_4_bg.webp);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
