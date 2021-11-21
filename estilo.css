@@ -5,6 +5,7 @@
   font-size: 16px;
   color: white;
 }
+
 .article__black {
   color: black;
 }
@@ -384,10 +385,16 @@
   font-size: 1.81rem;
   font-weight: 500;
   max-width: 678px;
-  width: 80%;
+  min-width: 300px;
+  border-radius: 7px;
   text-align: center;
-  margin: auto;
+  font-size: 1.5rem;
   border: none;
+  padding: 10px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
 }
 .section3__button:hover {
   color: #a8f88f;
