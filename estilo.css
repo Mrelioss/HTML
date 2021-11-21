@@ -151,7 +151,7 @@
 .section1__img--primer-paso {
   grid-area: section1__img--primer-paso;
   max-width: 25rem;
-  min-width: 20rem;
+  min-width: 80%;
   justify-self: end;
   align-self: end;
 }
@@ -288,7 +288,7 @@
   .section2__img--mockup1 {
     grid-area: section2__img--mockup1;
     max-width: 34rem;
-    min-width: 20rem;
+    min-width: 90%;
     align-self: start;
     justify-self: center;
   }
@@ -319,8 +319,8 @@
 .container3 {
   display: grid;
   grid-template-rows: repeat (9, 1fr);
-  grid-gap: 20px;
-  padding: 3.125rem;
+  gap: 20px;
+  padding: 5%;
   grid-template-areas:
     "section3__h3--1"
     "section3__img--ABC"
@@ -353,8 +353,8 @@
 }
 .section3__titulo2 {
   grid-area: section3__titulo2;
-  width: 50%;
-  margin: 3.13rem;
+  max-width: 400px;
+  width: 100%;
 }
 .section3__img--123 {
   grid-area: section3__img--123;
@@ -385,7 +385,6 @@
   font-size: 1.81rem;
   font-weight: 500;
   max-width: 678px;
-  min-width: 300px;
   border-radius: 7px;
   text-align: center;
   font-size: 1.5rem;
@@ -405,12 +404,11 @@
 @media screen and (max-width: 768px) {
   .img__ABC-123 {
     max-width: 60%;
-    min-width: none;
+    min-width: 0;
   }
   .section3__titulo2 {
     grid-area: section3__titulo2;
     width: 80%;
-    margin: 3.13rem;
   }
   .section3__h3--1 {
     grid-area: section3__h3--1;
@@ -429,8 +427,8 @@
 }
 @media (max-width: 480px) {
   .img__ABC-123 {
-    max-width: 100%;
-    min-width: none;
+    max-width: 90%;
+    min-width: 0;
   }
 }
 /*=====  End of Section comment block  ======*/
@@ -454,7 +452,7 @@
   align-items: center;
 
   row-gap: 30px;
-  padding: 10%;
+  padding: 5%;
 }
 .section4__h3 {
   background-color: rgb(0, 0, 0, 0.7);
@@ -535,10 +533,10 @@
     line-height: 2rem;
   }
   .section5__part2 {
-    min-width: 300px;
+    min-width: 250px;
   }
   .section5__part5 {
-    min-width: 300px;
+    min-width: 250px;
   }
   .container5 {
     padding: 5%;
@@ -807,7 +805,7 @@
 }
 .section10__precio {
   max-width: 60%;
-  min-width: 290px;
+  min-width: 230px;
 }
 .section10__subline {
   text-align: center;
@@ -836,11 +834,10 @@
 .section11__h2 {
   font-size: 1.5rem;
   font-weight: 500;
+  text-align: center;
 }
 .section11__article {
   font-weight: 500;
   text-align: center;
-  max-width: 80%;
-
-  min-width: 360px;
+  width: 90%;
 }
