@@ -5,24 +5,25 @@
   font-size: 16px;
   color: white;
 }
+b {
+  color: #000;
+  font-size: 1em;
+}
 
 .article__black {
   color: black;
 }
 .resaltado {
   color: #ff7212;
-  font-size: 1.1875rem;
+  font-size: 1.4rem;
   font-weight: 500;
 }
 .resaltado__black {
   color: #000;
   font-weight: 500;
-  font-size: 1.1875rem;
+  font-size: 1.3rem;
 }
 
-.video {
-  width: 100%;
-}
 /*=====  End of Section comment block  ======*/
 
 /*=============================================
@@ -49,7 +50,6 @@
 }
 .section0__h1 {
   color: white;
-
   font-size: 1.5rem;
   font-weight: 500;
   text-align: center;
@@ -71,6 +71,12 @@
   opacity: 0.5;
   margin: auto;
 }
+
+.container__video {
+  width: 125%;
+  margin: 0 -100px;
+  padding: 0 -300px;
+}
 .section0__video {
   position: relative;
   height: 0px;
@@ -89,6 +95,13 @@
 @media screen and (max-width: 768px) {
   .container0 {
     padding: 0 5%;
+    overflow: hidden;
+  }
+  .resaltado {
+    font-size: 1.5rem;
+  }
+  .resaltado__black {
+    font-size: 1.2rem;
   }
   .img__logo--0 {
     width: 35%;
@@ -97,9 +110,6 @@
     font-size: 1.2rem;
   }
   .section0__h2 {
-    font-size: 1.2rem;
-  }
-  .resaltado {
     font-size: 1.2rem;
   }
 }
@@ -110,14 +120,12 @@
   .img__logo--0 {
     width: 35%;
   }
+
   .section0__h1 {
-    font-size: 1rem;
+    font-size: 1.3rem;
   }
   .section0__h2 {
-    font-size: 1rem;
-  }
-  .resaltado {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 }
 
@@ -533,10 +541,10 @@
     line-height: 2rem;
   }
   .section5__part2 {
-    min-width: 250px;
+    min-width: 90%;
   }
   .section5__part5 {
-    min-width: 250px;
+    min-width: 90%;
   }
   .container5 {
     padding: 5%;
@@ -600,10 +608,7 @@
   text-align: center;
   background-color: #000;
 }
-.resatado {
-  color: black;
-  font-weight: 500;
-}
+
 .section7 {
   width: 290px;
   /* max-width: 30%;
@@ -687,14 +692,14 @@
   );
 }
 .container9 {
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 0 20%;
 }
-.container9__video {
-  width: 70%;
-}
+
 .section9__h3 {
   font-size: 2.5rem;
   font-weight: 500;
@@ -712,7 +717,7 @@
 .video__Eray {
   position: absolute;
   top: 13%;
-  left: 13%;
+  left: 12%;
   width: 75%;
   height: 75%;
 }
@@ -734,13 +739,13 @@
 /*MEDIA QUERIES -- SECTION 9*/
 
 @media screen and (max-width: 768px) {
+  .container9 {
+    padding: 0 2%;
+  }
   .section9__h3 {
     font-size: 200%;
   }
 
-  .container9__video {
-    width: 125%;
-  }
   .img__print1 {
     width: 80%;
   }
